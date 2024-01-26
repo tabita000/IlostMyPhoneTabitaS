@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22DEBA162B64608400509043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEBA152B64608400509043 /* AppDelegate.swift */; };
+		22DEBA182B64608400509043 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEBA172B64608400509043 /* SceneDelegate.swift */; };
+		22DEBA1A2B64608400509043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEBA192B64608400509043 /* ViewController.swift */; };
+		22DEBA1D2B64608400509043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DEBA1B2B64608400509043 /* Main.storyboard */; };
+		22DEBA1F2B64608500509043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DEBA1E2B64608500509043 /* Assets.xcassets */; };
+		22DEBA222B64608500509043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DEBA202B64608500509043 /* LaunchScreen.storyboard */; };
+		22DEBA2D2B64608500509043 /* iLostMyPhoneTabitaSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEBA2C2B64608500509043 /* iLostMyPhoneTabitaSTests.swift */; };
+		22DEBA372B64608500509043 /* iLostMyPhoneTabitaSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEBA362B64608500509043 /* iLostMyPhoneTabitaSUITests.swift */; };
+		22DEBA392B64608500509043 /* iLostMyPhoneTabitaSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEBA382B64608500509043 /* iLostMyPhoneTabitaSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22DEBA292B64608500509043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22DEBA0A2B64608400509043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DEBA112B64608400509043;
+			remoteInfo = iLostMyPhoneTabitaS;
+		};
+		22DEBA332B64608500509043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22DEBA0A2B64608400509043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DEBA112B64608400509043;
+			remoteInfo = iLostMyPhoneTabitaS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22DEBA122B64608400509043 /* iLostMyPhoneTabitaS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLostMyPhoneTabitaS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DEBA152B64608400509043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22DEBA172B64608400509043 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22DEBA192B64608400509043 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22DEBA1C2B64608400509043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22DEBA1E2B64608500509043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22DEBA212B64608500509043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22DEBA232B64608500509043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DEBA282B64608500509043 /* iLostMyPhoneTabitaSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLostMyPhoneTabitaSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DEBA2C2B64608500509043 /* iLostMyPhoneTabitaSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLostMyPhoneTabitaSTests.swift; sourceTree = "<group>"; };
+		22DEBA322B64608500509043 /* iLostMyPhoneTabitaSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLostMyPhoneTabitaSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DEBA362B64608500509043 /* iLostMyPhoneTabitaSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLostMyPhoneTabitaSUITests.swift; sourceTree = "<group>"; };
+		22DEBA382B64608500509043 /* iLostMyPhoneTabitaSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLostMyPhoneTabitaSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22DEBA0F2B64608400509043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DEBA252B64608500509043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DEBA2F2B64608500509043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22DEBA092B64608400509043 = {
+			isa = PBXGroup;
+			children = (
+				22DEBA142B64608400509043 /* iLostMyPhoneTabitaS */,
+				22DEBA2B2B64608500509043 /* iLostMyPhoneTabitaSTests */,
+				22DEBA352B64608500509043 /* iLostMyPhoneTabitaSUITests */,
+				22DEBA132B64608400509043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22DEBA132B64608400509043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22DEBA122B64608400509043 /* iLostMyPhoneTabitaS.app */,
+				22DEBA282B64608500509043 /* iLostMyPhoneTabitaSTests.xctest */,
+				22DEBA322B64608500509043 /* iLostMyPhoneTabitaSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22DEBA142B64608400509043 /* iLostMyPhoneTabitaS */ = {
+			isa = PBXGroup;
+			children = (
+				22DEBA152B64608400509043 /* AppDelegate.swift */,
+				22DEBA172B64608400509043 /* SceneDelegate.swift */,
+				22DEBA192B64608400509043 /* ViewController.swift */,
+				22DEBA1B2B64608400509043 /* Main.storyboard */,
+				22DEBA1E2B64608500509043 /* Assets.xcassets */,
+				22DEBA202B64608500509043 /* LaunchScreen.storyboard */,
+				22DEBA232B64608500509043 /* Info.plist */,
+			);
+			path = iLostMyPhoneTabitaS;
+			sourceTree = "<group>";
+		};
+		22DEBA2B2B64608500509043 /* iLostMyPhoneTabitaSTests */ = {
+			isa = PBXGroup;
+			children = (
+				22DEBA2C2B64608500509043 /* iLostMyPhoneTabitaSTests.swift */,
+			);
+			path = iLostMyPhoneTabitaSTests;
+			sourceTree = "<group>";
+		};
+		22DEBA352B64608500509043 /* iLostMyPhoneTabitaSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22DEBA362B64608500509043 /* iLostMyPhoneTabitaSUITests.swift */,
+				22DEBA382B64608500509043 /* iLostMyPhoneTabitaSUITestsLaunchTests.swift */,
+			);
+			path = iLostMyPhoneTabitaSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22DEBA112B64608400509043 /* iLostMyPhoneTabitaS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DEBA3C2B64608500509043 /* Build configuration list for PBXNativeTarget "iLostMyPhoneTabitaS" */;
+			buildPhases = (
+				22DEBA0E2B64608400509043 /* Sources */,
+				22DEBA0F2B64608400509043 /* Frameworks */,
+				22DEBA102B64608400509043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLostMyPhoneTabitaS;
+			productName = iLostMyPhoneTabitaS;
+			productReference = 22DEBA122B64608400509043 /* iLostMyPhoneTabitaS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22DEBA272B64608500509043 /* iLostMyPhoneTabitaSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DEBA3F2B64608500509043 /* Build configuration list for PBXNativeTarget "iLostMyPhoneTabitaSTests" */;
+			buildPhases = (
+				22DEBA242B64608500509043 /* Sources */,
+				22DEBA252B64608500509043 /* Frameworks */,
+				22DEBA262B64608500509043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DEBA2A2B64608500509043 /* PBXTargetDependency */,
+			);
+			name = iLostMyPhoneTabitaSTests;
+			productName = iLostMyPhoneTabitaSTests;
+			productReference = 22DEBA282B64608500509043 /* iLostMyPhoneTabitaSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22DEBA312B64608500509043 /* iLostMyPhoneTabitaSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DEBA422B64608500509043 /* Build configuration list for PBXNativeTarget "iLostMyPhoneTabitaSUITests" */;
+			buildPhases = (
+				22DEBA2E2B64608500509043 /* Sources */,
+				22DEBA2F2B64608500509043 /* Frameworks */,
+				22DEBA302B64608500509043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DEBA342B64608500509043 /* PBXTargetDependency */,
+			);
+			name = iLostMyPhoneTabitaSUITests;
+			productName = iLostMyPhoneTabitaSUITests;
+			productReference = 22DEBA322B64608500509043 /* iLostMyPhoneTabitaSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22DEBA0A2B64608400509043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					22DEBA112B64608400509043 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					22DEBA272B64608500509043 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22DEBA112B64608400509043;
+					};
+					22DEBA312B64608500509043 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22DEBA112B64608400509043;
+					};
+				};
+			};
+			buildConfigurationList = 22DEBA0D2B64608400509043 /* Build configuration list for PBXProject "iLostMyPhoneTabitaS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22DEBA092B64608400509043;
+			productRefGroup = 22DEBA132B64608400509043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22DEBA112B64608400509043 /* iLostMyPhoneTabitaS */,
+				22DEBA272B64608500509043 /* iLostMyPhoneTabitaSTests */,
+				22DEBA312B64608500509043 /* iLostMyPhoneTabitaSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22DEBA102B64608400509043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DEBA222B64608500509043 /* LaunchScreen.storyboard in Resources */,
+				22DEBA1F2B64608500509043 /* Assets.xcassets in Resources */,
+				22DEBA1D2B64608400509043 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DEBA262B64608500509043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DEBA302B64608500509043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22DEBA0E2B64608400509043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DEBA1A2B64608400509043 /* ViewController.swift in Sources */,
+				22DEBA162B64608400509043 /* AppDelegate.swift in Sources */,
+				22DEBA182B64608400509043 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DEBA242B64608500509043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DEBA2D2B64608500509043 /* iLostMyPhoneTabitaSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DEBA2E2B64608500509043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DEBA392B64608500509043 /* iLostMyPhoneTabitaSUITestsLaunchTests.swift in Sources */,
+				22DEBA372B64608500509043 /* iLostMyPhoneTabitaSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22DEBA2A2B64608500509043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22DEBA112B64608400509043 /* iLostMyPhoneTabitaS */;
+			targetProxy = 22DEBA292B64608500509043 /* PBXContainerItemProxy */;
+		};
+		22DEBA342B64608500509043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22DEBA112B64608400509043 /* iLostMyPhoneTabitaS */;
+			targetProxy = 22DEBA332B64608500509043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22DEBA1B2B64608400509043 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22DEBA1C2B64608400509043 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22DEBA202B64608500509043 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22DEBA212B64608500509043 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22DEBA3A2B64608500509043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22DEBA3B2B64608500509043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22DEBA3D2B64608500509043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iLostMyPhoneTabitaS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.iLostMyPhoneTabitaS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22DEBA3E2B64608500509043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iLostMyPhoneTabitaS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.iLostMyPhoneTabitaS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22DEBA402B64608500509043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.iLostMyPhoneTabitaSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLostMyPhoneTabitaS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iLostMyPhoneTabitaS";
+			};
+			name = Debug;
+		};
+		22DEBA412B64608500509043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.iLostMyPhoneTabitaSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLostMyPhoneTabitaS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iLostMyPhoneTabitaS";
+			};
+			name = Release;
+		};
+		22DEBA432B64608500509043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.iLostMyPhoneTabitaSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iLostMyPhoneTabitaS;
+			};
+			name = Debug;
+		};
+		22DEBA442B64608500509043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.iLostMyPhoneTabitaSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iLostMyPhoneTabitaS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22DEBA0D2B64608400509043 /* Build configuration list for PBXProject "iLostMyPhoneTabitaS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DEBA3A2B64608500509043 /* Debug */,
+				22DEBA3B2B64608500509043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DEBA3C2B64608500509043 /* Build configuration list for PBXNativeTarget "iLostMyPhoneTabitaS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DEBA3D2B64608500509043 /* Debug */,
+				22DEBA3E2B64608500509043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DEBA3F2B64608500509043 /* Build configuration list for PBXNativeTarget "iLostMyPhoneTabitaSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DEBA402B64608500509043 /* Debug */,
+				22DEBA412B64608500509043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DEBA422B64608500509043 /* Build configuration list for PBXNativeTarget "iLostMyPhoneTabitaSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DEBA432B64608500509043 /* Debug */,
+				22DEBA442B64608500509043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22DEBA0A2B64608400509043 /* Project object */;
+}
